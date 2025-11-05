@@ -89,7 +89,7 @@ jobs:
     needs: format-build-test
     services:
       mysql:
-        image: mysql:8.0
+        image: mysql:9.0
         env:
           MYSQL_RANDOM_ROOT_PASSWORD: yes
           MYSQL_DATABASE: testdb
